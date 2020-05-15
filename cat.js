@@ -1,5 +1,5 @@
-function cat() {
-    name:'Jerry'
-    age : 80
-    
+function Cat() {
+
 };
+
+module.exports = Cat;
