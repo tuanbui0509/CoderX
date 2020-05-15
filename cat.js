@@ -1,7 +1,5 @@
-Cat = function() {
-    name = 'Tom',
-    age = 10,
-    dead = true
-};
+function Cat() {
+    stomach = [];
+}
 
 module.exports = Cat;
