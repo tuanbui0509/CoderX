@@ -1,4 +1,4 @@
-function Mouse(name,age) {
+ function Mouse(name,age) {
     this.name = name;
     this.dead = false;
     this.age = age;
