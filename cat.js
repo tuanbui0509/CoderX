@@ -1,11 +1,12 @@
+
 function Cat(name) {
-    stomach = [];
+    this.stomach = [];
     this.name = name;
     this.dead = false;
 }
 
-Cat.prototype.eat = function(mouse){
-    this.stomach.push(mouse);
+Cat.prototype.eat = function(mouse) {
+    this.stomach.push(mouse)
 }
 
 Cat.prototype.die = function() {
