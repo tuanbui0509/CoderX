@@ -9,5 +9,6 @@ var jerry = new Mouse('Jerry',1);
 butch.sayHi();
 tom.eat(jerry);
 butch.eat(tom);
+console.log(jerry);
 console.log(tom);
 console.log(butch);
