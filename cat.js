@@ -1,5 +1,5 @@
 function Cat(name) {
-    stomach = [];
+    this.stomach = [];
     this.name = name;
     this.dead = false;
 }
