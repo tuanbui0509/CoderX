@@ -1,3 +1,4 @@
+var cat = require('./cat');
 var chalk = require('chalk');
 function Dog(name){
     this.stomach = [];
