@@ -1,11 +1,12 @@
 var Dog = require('./dog');
 var Cat = require('./cat');
 var Mouse = require('./mouse');
+var Horse = require('./horse');
 
 var butch = new Dog('Butch');
 var tom =  new Cat('Tom');
 var jerry = new Mouse('Jerry',1);
-
+var unicorn =  new Horse('Unicron');
 // butch.sayHi();
 // console.log("Before");
 // console.log(jerry);
@@ -32,5 +33,16 @@ tom.eat(butch);
 } catch (error) {
     console.log('Error while cat eat a dog');
 }
-
 console.log(tom);
+
+console.log('Dog eat cat')
+butch.eat(tom);
+console.log(butch);
+
+console.log('Dog eat horse')
+try {
+butch.eat(unicorn);    
+} catch (error) {
+    console.log("Dog isn't eat horse");
+}
+console.log(butch);
