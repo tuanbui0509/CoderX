@@ -7,4 +7,8 @@ horse.prototype.eat = function(grass) {
     this.stomach.push(grass);
 }
 
+horse.prototype.jump = function(){
+    console.log(this.name + ' is jumping ...!');
+};
+
 module.exports = horse;
