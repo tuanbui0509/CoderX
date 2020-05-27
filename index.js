@@ -10,6 +10,7 @@ butch.sayHi();
 console.log("Before");
 console.log(jerry);
 console.log(tom);
+console.log(butch);
 tom.eat(jerry);
 jerry.die();
 butch.eat(tom);
