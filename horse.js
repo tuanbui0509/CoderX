@@ -9,7 +9,8 @@ horse.prototype.eat = function(grass) {
 
 horse.prototype.jump = function(){
     console.log(this.name + ' is jumping ...!');
-    
+}
+
 horse.prototype.run = function(){
     console.log(this.name + ' is running ...');
 };
