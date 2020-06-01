@@ -11,4 +11,8 @@ tiger.prototype.lost = function(lion) {
     this.fightLost.push(lion);
 }
 
+tiger.prototype.eat = function() {
+    console.log('A tiger is eatting bone');
+}
+
 module.exports = tiger;
