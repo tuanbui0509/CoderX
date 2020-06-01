@@ -11,4 +11,8 @@ tiger.prototype.lost = function(lion) {
     this.fightLost.push(lion);
 }
 
+tiger.prototype.sleep = function() {
+    console.log('A tiger is sleeping in the garden');
+}
+
 module.exports = tiger;
