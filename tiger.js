@@ -15,4 +15,8 @@ tiger.prototype.eat = function() {
     console.log('A tiger is eatting bone');
 }
 
+tiger.prototype.sleep = function() {
+    console.log('A tiger is sleeping in the garden');
+}
+
 module.exports = tiger;
